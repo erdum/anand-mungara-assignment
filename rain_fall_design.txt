@@ -1,0 +1,103 @@
+Start
+|
+v
+Input Loop:
+|
+v
+Prompt for monthly rainfall
+|
+v
+Input rainfall
+|
+v
+Store rainfall in array
+|
+v
+Repeat for all months
+|
+v
+Calculate Total Rainfall:
+|
+v
+Initialize total = 0
+|
+v
+Loop through array:
+|   |
+|   v
+|   Add monthly rainfall to total
+|   |
+|   v
+|   End Loop
+|
+v
+Calculate Average Rainfall:
+|
+v
+Initialize total = 0
+|
+v
+Loop through array:
+|   |
+|   v
+|   Add monthly rainfall to total
+|   |
+|   v
+|   End Loop
+|
+v
+Divide total by 12 (number of months)
+|
+v
+Find Highest Rainfall:
+|
+v
+Initialize highest = first month's rainfall
+|
+v
+Loop through array:
+|   |
+|   v
+|   Compare current month's rainfall with highest
+|   |
+|   v
+|   Update highest if current month's rainfall is higher
+|   |
+|   v
+|   End Loop
+|
+v
+Find Lowest Rainfall:
+|
+v
+Initialize lowest = first month's rainfall
+|
+v
+Loop through array:
+|   |
+|   v
+|   Compare current month's rainfall with lowest
+|   |
+|   v
+|   Update lowest if current month's rainfall is lower
+|   |
+|   v
+|   End Loop
+|
+v
+Output Results:
+|
+v
+Display Total Rainfall
+|
+v
+Display Average Rainfall
+|
+v
+Display Highest Rainfall
+|
+v
+Display Lowest Rainfall
+|
+v
+End

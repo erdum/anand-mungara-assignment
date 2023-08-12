@@ -1,0 +1,80 @@
+Start
+|
+v
+Initialize loop counter (r4) to 0
+|
+v
+Loop: Check if loop counter (r4) is equal to 10
+|   |
+|   v
+|   Load current tuition fee into r1
+|   |
+|   v
+|   Load 0.04 constant into s0
+|   |
+|   v
+|   Call multiply_float subroutine to calculate new tuition fee
+|   |
+|   v
+|   Store new tuition fee back into memory
+|   |
+|   v
+|   Increment loop counter (r4)
+|   |
+|   v
+|   Repeat loop if counter < 10
+|
+v
+Calculate Total Cost for Four Years:
+|
+v
+Reset loop counter (r4) to 0
+|
+v
+Initialize total cost accumulator (r5) to 0
+|
+v
+Loop: Check if loop counter (r4) is equal to 4
+|   |
+|   v
+|   Load current tuition fee into r1
+|   |
+|   v
+|   Add current tuition fee to total cost accumulator (r5)
+|   |
+|   v
+|   Increment loop counter (r4)
+|   |
+|   v
+|   Repeat loop if counter < 4
+|
+v
+Pop FPU registers (s0, s1)
+|
+v
+Load output message into r0
+|
+v
+Load tuition fee into r1
+|
+v
+Load tuition fee into r2
+|
+v
+Call printf to display output message
+|
+v
+Exit program
+
+multiply_float subroutine:
+|
+v
+Multiply 0.04 constant (s0) with current_fee (s1)
+|
+v
+Add the result to current_fee (s2)
+|
+v
+Return
+
+End

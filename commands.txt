@@ -1,0 +1,3 @@
+arm-none-eabi-as -mcpu=cortex-a5 -mfpu=neon-vfpv4 -mfloat-abi=hard -o shipping_cost.o shipping_cost.S
+
+arm-none-eabi-gcc -o shipping shipping_cost.o -lc -nostartfiles -specs=nano.specs -specs=nosys.specs
